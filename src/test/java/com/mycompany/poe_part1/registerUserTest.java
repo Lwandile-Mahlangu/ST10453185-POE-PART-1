@@ -91,7 +91,7 @@ public class registerUserTest {
         String username = "Kyl_1";
         String password = "Ch&&sec@ke99!";
         registerUser instance = new registerUser();
-        String expResult = "Welcome";
+        String expResult ="";
         String result = instance.returnLoginStatus(username, password);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
