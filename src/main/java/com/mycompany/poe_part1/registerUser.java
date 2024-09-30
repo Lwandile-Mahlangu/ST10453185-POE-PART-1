@@ -12,7 +12,7 @@ import java.util.regex.Pattern;
  * @author RC_Student_lab
  */
 public class registerUser {
-        private String username;
+    private String username;
     private String password;
     private String firstName;
     private String lastName;

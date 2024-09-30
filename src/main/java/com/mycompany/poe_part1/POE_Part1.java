@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @author RC_Student_lab
  */
 public class POE_Part1 {
-     public static void main(String[] args) {
+     public static void main(String[] args){
         //Declaration
         
        Scanner scanner = new Scanner(System.in);
