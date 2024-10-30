@@ -6,6 +6,8 @@ package com.mycompany.poe_part1;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.ArrayList;
+
 
 /**
  *
@@ -16,6 +18,7 @@ public class registerUser {
     private String password;
     private String firstName;
     private String lastName;
+    private ArrayList<Task> tasks = new ArrayList<>();
    
 // Method to validate the username
     public boolean checkUserName(String username) {
@@ -44,7 +47,7 @@ public class registerUser {
     }
     
         // Method to register the user
- public String registerUser(String username, String password, String firstName, String lastName) {
+         public String registerUser(String username, String password, String firstName, String lastName) {
         if (!checkUserName(username)) {
             return "Username is not correctly formatted, please ensure that your username contains an underscore and is no more than 5 characters in length.";
         }
@@ -75,5 +78,3 @@ public class registerUser {
         }
     }
 }
-    
-
